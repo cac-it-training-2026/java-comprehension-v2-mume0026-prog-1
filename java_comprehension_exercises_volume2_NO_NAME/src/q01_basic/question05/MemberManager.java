@@ -1,18 +1,16 @@
-package q01_basic.question04;
+package q01_basic.question05;
 
-class MemberManager {
-
+public class MemberManager {
 	/**
 	 * インスタンス化の禁止
 	 */
 	private MemberManager() {
 	}
 
-	public static void showAllMembers(Member[] members) {
+	static void showAllMembers(AbstMember[] members) {
 		System.out.println("---SHOW ALL MEMBERS---");
-		for (Member member : members) {
+		for (AbstMember member : members) {
 			member.showMember();
 		}
 	}
-
 }
