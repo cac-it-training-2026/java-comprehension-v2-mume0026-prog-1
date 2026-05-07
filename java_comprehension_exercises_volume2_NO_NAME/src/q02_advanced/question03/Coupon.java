@@ -1,5 +1,6 @@
 package q02_advanced.question03;
 
+//クーポンクラス
 public class Coupon {
 	private int id;
 	private double discountRate;
