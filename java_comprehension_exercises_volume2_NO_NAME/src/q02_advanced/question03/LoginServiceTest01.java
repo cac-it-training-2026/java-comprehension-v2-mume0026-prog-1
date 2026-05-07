@@ -95,7 +95,7 @@ public class LoginServiceTest01 {
 
 		// MemberStorageに存在するメンバーのIDとパスワードを使用
 		int existingId = 1; // MemberStorageの初期データにあるMiura ManabuのID
-		String correctPassword = "Passw0rd"; // Miura Manabuの正しいパスワード
+		String correctPassword = "PasswOrd"; // Miura Manabuの正しいパスワード
 
 		// doLoginメソッドを呼び出し
 		Member loggedInMember = loginService.doLogin(existingId, correctPassword);
